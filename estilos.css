@@ -1,0 +1,115 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+/* navbar */
+.navbar{
+	background-color: rgb(198, 7, 45) !important;
+}
+.navbar-brand{
+	color: black !important;
+	font-weight: 700 !important;
+}
+.nav-link{
+	color: black !important;
+	transition: all 0.5s;
+}
+.nav-link:hover{
+	transition: all 0.5s;
+	font-weight: 800;
+}
+/* carousel */
+.carousel{
+	height: 300px;
+	width: 100%;
+}
+.d-block{
+	height: 300px;
+}
+/* tarjetas */
+.tarjetas{
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+	height: 600px;
+	width: 100%;
+	background-color: black;
+}
+.otroContenedorDeTarjetas{
+	display: flex;
+    height: 18rem !important;
+}
+.card{
+	background-color: black;
+	justify-content: space-between !important;
+}
+.card-body h5{
+	color: white;
+}
+.card-body p{
+	color: red;
+}
+.btn{
+	background-color: rgba(247, 3, 3, 0.807);
+	border: none;
+	transition: all 0.5s;
+}
+.btn:hover{
+	background-color: black;
+	transform: scale(1.15);
+	transition: all 0.5s;
+	font-weight: 800;
+}
+/* footer */
+.seguinos{
+	background-color: black;
+}
+#seguinos{
+	display: flex;
+	color: white;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+}
+.menu_seguinos{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+.botones{
+	display: inline-block;
+	font-size: 6rem;
+	color: white;
+	width: 100%;
+	transition: all 0.5s;
+}
+section a:hover{
+	color: rgba(247, 3, 3, 0.807);
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+/* seccion "el otro.html" */
+.tabla{
+	height: 600px;
+	background-image: url(banner.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+.otroContainer{
+	max-width: 85%;
+	margin: 4rem;
+}
+.container{
+	margin-top: 0 !important;
+}
+.container h2{
+	color: white !important;
+}
+.container p{
+	color: white !important;
+}

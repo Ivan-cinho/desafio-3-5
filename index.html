@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--link bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!--link estilos-->
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<!--link fonawesone-->
+	<script src="https://kit.fontawesome.com/cf6e9818da.js" crossorigin="anonymous"></script>
+	<title>Desafio 3-5 bootstrap</title>
+	
+</head>
+<body>
+	<header>
+		<!-- navbar -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#">Este es mi trabajo de bootstrap</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link" href="index.html">Este es para ir a inicio</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">este es un boton random</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="el otro.html">y aca esta el otro html</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+		  <!-- navbar fin-->
+	</header>
+	<main>
+		<!--carousel inicio-->
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="banner.jpg" class="d-block w-100" alt="">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5>First slide label</h5>
+				  <p>Esta imagen intente usarla de fondo fijo con un texto que se mueva</p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="banner.jpg" class="d-block w-100" alt="">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5>Second slide label</h5>
+				  <p>use el class carusel para aplicar el fondo y pude hacerlo sin problema</p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="banner.jpg" class="d-block w-100" alt="">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5>Third slide label</h5>
+				  <p>pero al reemplazar la etiqueta img por un h2 con sus class no se visualizaba centrado</p>
+				</div>
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+		<!--carousel fin-->
+		<!--tarjetas inicio-->
+		<section class="tarjetas">
+			<div class="otroContenedorDeTarjetas">
+				<div class="card" style="width: 18rem;">
+					<img src="ryn1.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">aca van los titulos</h5>
+					  <p class="card-text">...y aca las descripciones</p>
+					  <a href="#" class="btn btn-primary">Al infinito</a>
+					</div>
+				  </div>
+			</div>
+			<div class="otroContenedorDeTarjetas">
+				<div class="card" style="width: 18rem;">
+					<img src="ryn2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">aca van los titulos</h5>
+					  <p class="card-text">...y aca las descripciones</p>
+					  <a href="#" class="btn btn-primary">y</a>
+					</div>
+				  </div>
+			</div>
+			<div class="otroContenedorDeTarjetas">
+				<div class="card" style="width: 18rem;">
+					<img src="ryn3.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">aca van los titulos</h5>
+					  <p class="card-text">...y aca las descripciones</p>
+					  <a href="#" class="btn btn-primary">mas alla</a>
+					</div>
+				  </div>
+			</div>
+		</section>
+		<!--tarjetas fin-->	  
+	</main>
+	<footer>
+		<section class="seguinos">
+			<h2 id="seguinos">Seguinos</h2>
+				<section class="menu_seguinos">
+					<a class="botones" href="https://m.facebook.com/login/?locale=es_ES" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+					<a class="botones" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+					<a class="botones" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+					<a class="botones" href="https://www.spotify.com/ar/" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+				</section>
+		</section>
+	</footer>	
+	<!--link js-->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
